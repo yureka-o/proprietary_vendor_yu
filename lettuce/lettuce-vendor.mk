@@ -41,8 +41,10 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/yu/lettuce/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/yu/lettuce/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/yu/lettuce/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/yu/lettuce/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/yu/lettuce/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/yu/lettuce/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/yu/lettuce/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/yu/lettuce/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
@@ -278,6 +280,7 @@ PRODUCT_PACKAGES += \
     libwpa_qmi_eap_proxy \
     libtime_genoff \
     TimeService \
+    colorservice \
     shutdownlistener \
     qcrilmsgtunnel \
     qcnvitems \
