@@ -44,6 +44,11 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/yu/tomato/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/yu/tomato/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/yu/tomato/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/yu/tomato/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/yu/tomato/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
+    vendor/yu/tomato/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    vendor/yu/tomato/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/yu/tomato/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/yu/tomato/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/yu/tomato/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -267,6 +272,7 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     libwpa_qmi_eap_proxy \
     libtime_genoff \
+    QtiTelephonyService \
     TimeService \
     shutdownlistener \
     qcrilmsgtunnel \
