@@ -80,6 +80,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/yu/tomato/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/yu/tomato/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/yu/tomato/proprietary/lib64/libprotobuf-cpp-full-shit.so:system/lib64/libprotobuf-cpp-full-shit.so \
+    vendor/yu/tomato/proprietary/lib64/libprotobuf-cpp-lite-shit.so:system/lib64/libprotobuf-cpp-lite-shit.so \
     vendor/yu/tomato/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/yu/tomato/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/yu/tomato/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
