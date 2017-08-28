@@ -20,6 +20,98 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),tomato)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_api_v02
+LOCAL_MODULE_OWNER := yu
+LOCAL_SRC_FILES_64 := proprietary/lib64/libloc_api_v02.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libloc_api_v02.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_ds_api
+LOCAL_MODULE_OWNER := yu
+LOCAL_SRC_FILES_64 := proprietary/lib64/libloc_ds_api.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libloc_ds_api.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libwpa_qmi_eap_proxy
+LOCAL_MODULE_OWNER := yu
+LOCAL_SRC_FILES := proprietary/lib64/libwpa_qmi_eap_proxy.so
+LOCAL_MULTILIB := 64
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqcci_legacy
+LOCAL_MODULE_OWNER := yu
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqcci_legacy.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqcci_legacy.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi
+LOCAL_MODULE_OWNER := yu
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqmi.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqmi.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmi_client_qmux
+LOCAL_MODULE_OWNER := yu
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqmi_client_qmux.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqmi_client_qmux.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqmiservices
+LOCAL_MODULE_OWNER := yu
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libqmiservices.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libqmiservices.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libtime_genoff
+LOCAL_MODULE_OWNER := yu
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libtime_genoff.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libtime_genoff.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyService
 LOCAL_MODULE_OWNER := yu
 LOCAL_SRC_FILES := proprietary/app/QtiTelephonyService/QtiTelephonyService.apk
