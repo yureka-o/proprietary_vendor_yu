@@ -139,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/yu/tomato/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/yu/tomato/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/yu/tomato/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/yu/tomato/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/yu/tomato/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/yu/tomato/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -171,8 +170,8 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/yu/tomato/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/yu/tomato/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/yu/tomato/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
     vendor/yu/tomato/proprietary/vendor/lib/libprotobuf-cpp-biss.so:system/vendor/lib/libprotobuf-cpp-biss.so \
+    vendor/yu/tomato/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
     vendor/yu/tomato/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/yu/tomato/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/yu/tomato/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
@@ -245,14 +244,13 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/yu/tomato/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/yu/tomato/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/yu/tomato/proprietary/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libprotobuf-cpp-biss.so:system/vendor/lib64/libprotobuf-cpp-biss.so \
+    vendor/yu/tomato/proprietary/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/yu/tomato/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
@@ -281,14 +279,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/tomato/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libloc_ds_api \
-    libwpa_qmi_eap_proxy \
-    libqcci_legacy \
-    libqmi \
-    libqmi_client_qmux \
-    libqmiservices \
-    libtime_genoff \
     QtiTelephonyService \
     TimeService \
     colorservice \
